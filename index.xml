@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<팀페이지>
+  <타이틀>
+    웹프로그래밍 1조
+  </타이틀>
 
-  <admin>
-    <person>
-      <image>20153141.jpg</image>
-      <department>컴퓨터공학과</department>
-      <year>3학년</year>
-      <id>20153141</id>
-      <name>양동빈</name>
-      <phone>010-3449-9124</phone>
-    </person>
-    <person>
-      <image>20163273.jpg</image>
-      <department>컴퓨터공학과</department>
-      <year>3학년</year>
-      <id>20163273</id>
-      <name>이상락</name>
-      <phone>010-6886-9421</phone>
-    </person>
-    <next_page>1</next_page>
-  </admin>
+  <간판>
+    <팀소개말>
+      We Are Web Programming 1 Team!
+    </팀소개말>
+    <팀사진></팀사진>
+  </간판>
+
+  <팀원소개>
+    <팀원카드>
+      
+    </팀원카드>
+  </팀원소개>
+</팀페이지>
