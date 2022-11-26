@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="junki.xsl"?>
+<개인페이지>
+  <타이틀>
+        준기페이지
+    </타이틀>
+  <헤더>
+    <사진 사진="junki_circle.png"></사진>
+    <영어이름>JunKi Kim</영어이름>
+  </헤더>
+  <개인정보>
+    <이름>김준기(JunKi Kim)</이름>
+    <MBTI>ENFJ</MBTI>
+    <생년월일>1999-12-22</생년월일>
+    <전공>동의대학교 컴퓨터공학</전공>
+    <거주지>경남 창원시</거주지>
+    <전화번호>010-3182-5102</전화번호>
+    <e-mail>wnsrl5102@gmail.com</e-mail>
+  </개인정보>
+  <SNS>
+    <깃허브>https://github.com/junki1912</깃허브>
+    <인스타그램>https://www.instagram.com/lo9_out/</인스타그램>
+  </SNS>
+  <YOUTUBE 링크="https://youtube.com/embed/IL-aoxBEcjU"></YOUTUBE>
+</개인페이지>

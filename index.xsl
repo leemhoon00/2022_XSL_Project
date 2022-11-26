@@ -63,7 +63,11 @@
                                             </img>
                                             
                                             <div class="card-body p-4">
-                                                <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3"><xsl:value-of select="소속"/></h5></a>
+                                                <a class="text-decoration-none link-dark stretched-link">
+                                                    <xsl:attribute name="href">
+                                                        <xsl:value-of select="링크/@링크"/>
+                                                    </xsl:attribute>
+                                                    <h5 class="card-title mb-3"><xsl:value-of select="소속"/></h5></a>
                                                 <p class="card-text mb-0"><xsl:value-of select="좌우명"/></p>
                                             </div>
                                             <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
