@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="개인페이지">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="타이틀" type="xsd:string" />
+				<xsd:element name="헤더">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="사진">
+								<xsd:complexType>
+									<xsd:attribute name="사진" type="xsd:string" use="required" />
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="영어이름" type="xsd:string" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="개인정보">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="이름" type="xsd:string" />
+							<xsd:element name="MBTI" type="xsd:string" />
+							<xsd:element name="생년월일" type="xsd:string" />
+							<xsd:element name="전공" type="xsd:string" />
+							<xsd:element name="거주지" type="xsd:string" />
+							<xsd:element name="전화번호" type="xsd:string" />
+							<xsd:element name="e-mail" type="xsd:string" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="SNS">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="깃허브" type="xsd:string" />
+							<xsd:element name="인스타그램" type="xsd:string" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="YOUTUBE">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:string">
+								<xsd:attribute name="링크" type="xsd:string" use="required" />
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

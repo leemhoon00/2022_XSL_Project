@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+	<xsd:element name="팀페이지">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="타이틀" type="xsd:string" />
+				<xsd:element name="간판">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="팀소개말" type="xsd:string" />
+							<xsd:element name="팀사진">
+								<xsd:complexType>
+									<xsd:attribute name="사진" type="xsd:string" use="required" />
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="팀원소개">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="섹션명" type="xsd:string" />
+							<xsd:element maxOccurs="unbounded" name="팀원카드">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="개인사진">
+											<xsd:complexType>
+												<xsd:simpleContent>
+													<xsd:extension base="xsd:string">
+														<xsd:attribute name="사진" type="xsd:string" use="required" />
+													</xsd:extension>
+												</xsd:simpleContent>
+											</xsd:complexType>
+										</xsd:element>
+										<xsd:element name="소속" type="xsd:string" />
+										<xsd:element name="좌우명" type="xsd:string" />
+										<xsd:element name="이름" type="xsd:string" />
+										<xsd:element name="날짜" type="xsd:string" />
+									</xsd:sequence>
+									<xsd:attribute name="이름" type="xsd:string" use="required" />
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="저작권" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
