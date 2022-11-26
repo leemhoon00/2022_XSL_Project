@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="jin.xsl"?>
+<개인페이지>
+    <타이틀>
+        허진페이지
+    </타이틀>
+    <헤더>
+        <사진 사진="jin_circle.png"></사진>
+        <영어이름>Jin Heo</영어이름>
+    </헤더>
+    <개인정보>
+        <이름>허 진(Jin Heo)</이름>
+        <MBTI>ISTP</MBTI>
+        <생년월일>1999-09-04</생년월일>
+        <전공>동의대학교 로봇자동화공학</전공>
+        <거주지>경상남도 사천시</거주지>
+        <전화번호>010-8223-0679</전화번호>
+        <e-mail>gjwls0679@naver.com</e-mail>
+    </개인정보>
+    <SNS>
+        <깃허브>https://github.com/hjin0679</깃허브>
+        <인스타그램>https://www.instagram.com/Heu_G/</인스타그램>
+    </SNS>
+    <YOUTUBE 링크="https://youtube.com/embed/5cZqSwnJGzo">
+
+    </YOUTUBE>
+</개인페이지>
