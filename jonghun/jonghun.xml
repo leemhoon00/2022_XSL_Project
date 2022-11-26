@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="jonghun.xsl"?>
+<개인페이지>
+    <타이틀>
+        종훈페이지
+    </타이틀>
+    <헤더>
+        <사진 사진="jh_circle.png"></사진>
+        <영어이름>JongHun Lim</영어이름>
+    </헤더>
+    <개인정보>
+        <이름>임 종 훈(Jonghun Lim)</이름>
+        <MBTI>ESTJ</MBTI>
+        <생년월일>2000-01-14</생년월일>
+        <전공>동의대학교 컴퓨터공학</전공>
+        <거주지>부산 사상구</거주지>
+        <전화번호>010-6422-5425</전화번호>
+        <e-mail>leemhoon00@naver.com</e-mail>
+    </개인정보>
+    <SNS>
+        <깃허브>https://github.com/leemhoon00</깃허브>
+        <인스타그램>https://instagram.com/zzong_hoon00</인스타그램>
+    </SNS>
+    <YOUTUBE 링크="https://youtube.com/embed/5cZqSwnJGzo">
+
+    </YOUTUBE>
+</개인페이지>

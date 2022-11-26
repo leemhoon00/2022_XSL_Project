@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="introduceji.xsl"?>
+<Profile xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="file:///C:/Users/lsm126/Desktop/Finish/introduce/Introduce.xsd">
+  <MyPtofile>
+    <MyInfo>
+      <Name>이지민</Name>
+      <Gender>남</Gender>
+      <Family1>
+        <Relation>아버지</Relation>
+        <FamilyName>이병희</FamilyName>
+        <Working>보험설계사</Working>
+      </Family1>
+      <Family2>
+        <Relation>어머니</Relation>
+        <FamilyName>정미숙</FamilyName>
+        <Working>회사원</Working>
+      </Family2>
+      <Family3>
+        <Relation>동생</Relation>
+        <FamilyName>이다은</FamilyName>
+        <Working>학생</Working>
+      </Family3>
+      <Birth>1997-02-05</Birth>
+      <Email>2350wlals@naver.com</Email>
+      <Phone>010-9664-2350</Phone>
+      <Image>ji.png</Image>
+    </MyInfo>
+    <Career>
+      <School1>
+        <SchoolPeriod>10/02</SchoolPeriod>
+        <SchoolName>삼성초등학교</SchoolName>
+        <Course>졸업</Course>
+      </School1>
+      <School2>
+        <SchoolPeriod>13/02</SchoolPeriod>
+        <SchoolName>양산중학교</SchoolName>
+        <Course>졸업</Course>
+      </School2>
+      <School3>
+        <SchoolPeriod>16/02</SchoolPeriod>
+        <SchoolName>양산제일고등학교</SchoolName>
+        <Course>졸업</Course>
+      </School3>
+      <School4>
+        <SchoolPeriod>16/03</SchoolPeriod>
+        <SchoolName>동의대학교 컴퓨터공학과</SchoolName>
+        <Course>입학</Course>
+      </School4>
+      <School5>
+        <SchoolPeriod>22/02</SchoolPeriod>
+        <SchoolName>동의대학교 컴퓨터공학과</SchoolName>
+        <Course>졸업예정</Course>
+      </School5>
+    </Career>
+    <LifeStyle>
+      <Hobby>게임</Hobby>
+      <Special>바둑</Special>
+      <Favorite>집</Favorite>
+      <Hate>공부</Hate>
+      <Hope>부자</Hope>
+    </LifeStyle>
+  </MyPtofile>
+</Profile>
